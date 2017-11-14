@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/public.css">
+        <link rel="stylesheet" href="css/index.css">
+        <script src='js/jquery-1.11.1.js'></script>
+        <script src='js/public.js'></script>
+        <script>
+            $(function(){
+                var num=0;
+                var timer;
+                function aa(){
+                    clearInterval(timer);
+                    timer=setInterval(function(){
+                        num+=1;
+                        if(num>1){
+                            num=0
+                        }
+                        $('.s6 ul').css('left', -981*num+'px');
+                    },800)
+
+                } 
+                aa();
+                    $('.s6').hover(function() {
+                        clearInterval(timer);
+                    }, function() {
+                        aa()
+                    });
+
+                var num=0;
+                $('.s4').click(function(event) {
+                    $('.s6 ul').css('left', -981*num+'px');  
+                num=num+1
+                if(num>1){
+                    num=0
+                } 
+                });
+                $('.s5').click(function(event) {
+                    $('.s6 ul').css('left', -981*num+'px');
+                    num=num-1
+                    if(num<0)
+                    {
+                        num=1
+                    }
+                });
+                $('.s6 ul li').hover(function() {
+                    $(this).children('.shade').stop().fadeIn(500).parent().siblings().children('.shade').fadeOut(500)
+                   
+                }, function() {
+                    $(this).children('.shade').stop().fadeOut(500)
+                });
+                $('.shade a').hover(function() {
+                     $(this).addClass('current1').parent().siblings().children('.shade').children('a').removeClass('current1')
+                }, function() {
+                    $(this).removeClass('current1')
+                });             
+
+            })
+        </script>
+    </head>
+    <body>
+        <div class="big">
+
+        	<div class="top">
+                <div class="top1">
+        		    <p> <span>2015年11月13日</span>
+        		        <span>星期五</span>
+        		        <a href="javascript:void(0);">设为主页</a>
+        		        <a href="javascript:void(0);">收藏本站</a>
+        		    </p>
+        		    <img src="images/logo.jpg" alt="">
+        		    <form action="" class="form">
+        		    	<input type="text" placeholder="搜索" class="a1">
+        		    </form>
+        		    <ul>
+        		    	<li><a href="html/index.html" target="_blank">首页</a></li>
+                        <li><a href="html/about us.html" target="_blank">公司介绍</a></li>
+                        <li><a href="html/product center.html" target="_blank">产品中心</a></li>
+                        <li><a href="html/news.html" target="_blank">新闻中心</a></li>
+                        <li><a href="html/contact us.html" target="_blank">联系我们</a></li>
+        		    </ul>
+                </div>
+        	</div>
+        	<div class="banner">
+        		<ul class="banner1">
+        			<li class="current"><hr></li>
+        			<li><hr></li>
+        			<li><hr></li>
+        			<li><hr></li>
+        			<li><hr></li>
+        		</ul>
+        		<ul class="banner2">
+        			<li><img src="images/banner01.jpg" alt=""></li>
+        			<li><img src="images/banner02.jpg" alt=""></li>
+        			<li><img src="images/banner03.jpg" alt=""></li>
+        			<li><img src="images/banner04.jpg" alt=""></li>
+        			<li><img src="images/banner05.jpg" alt=""></li>
+        		</ul>
+        	</div>
+        	<div class="content">
+        	    <div class="c1">
+                <div class="content1">
+        	        <span class="s1">Concept</span>
+        	    	<hr width="400px" class="h1">
+                    <hr width="400px" class="h2">
+                    <span class="s2">公司理念</span>
+                    <p>主营育人，兼营美丽.</p>
+                    <p>女人的美丽随着岁月而增长，有因为精致而变得迷人。精致的女人是西班牙广场上那个身着白色长裙，留着俏皮短发，舔着冰淇淋的可爱公主；精致的女人是穿着黑色长裙，竖着高嵩发髻，游走在tiffany橱窗前吃着早餐的交际花。我们将古典与时尚完美结合，对衣着的独特品味成执着就了经典优雅，执着的追求简洁素雅和极具生活气息的穿衣格调，造就每个女人都向往的精致。女人的美丽随着岁月而增长，又因为精致而变得迷人。致的女人是西班牙广场上那个身着白色长裙，留着俏皮短发，舔着冰淇淋的可爱公主；精致的女人是穿着黑色长裙，竖着高嵩发髻，游走在tiffany橱窗前吃着早餐的交际花。我们将古典与时尚完美结合，对衣着的独特品味成执着就了经典优雅，执着的追求简洁素雅和极具生活气息的穿衣格调，造就每个女人都向往的精致。女人的美丽随着岁月而增长，又因为精致而变得迷人。致的女人是西班牙广场上那个身着白色长裙，留着俏皮短发，舔着冰淇淋的可爱公主；精致的女人是穿着黑色长裙，竖着高嵩发髻，游走在tiffany橱窗前吃着早餐的交际花。我们将古典与时尚完美结合，对衣着的独特品味成执着就了经典优雅，执着的追求简洁素雅和极具生活气息的穿衣格调，造就每个女人都向往的精致。女人的美丽随着岁月而增长，又因为精致而变得迷人。致的女人是西班牙广场上那个身着白色长裙，留着俏皮短发，舔着冰淇淋的可爱公主；精致的女人是穿着黑色长裙，竖着高嵩发髻，游走在tiffany橱窗前吃着早餐的交际花。我们将古典与时尚完美结合，对衣着的独特品味成执着就了经典优雅，执着的追求简洁素雅和极具生活气息的穿衣格调，造就每个女人都向往的精致。女人的美丽随着岁月而增长，又因为精致而变得迷人。</p>
+                </div>
+        	    </div>
+        	    <div class="c2">
+                <div class="content1">
+        	    	<span class="s1">Predict</span>
+        	    	<hr width="400px" class="h1">
+                    <hr width="400px" class="h2">
+                    <span class="s2">产品展示</span>  
+                    <img src="images/lunbo.png" alt="" class="s4">
+                    <img src="images/lunbo2.png" alt="" class="s5"> 
+                    <div class="s6">   
+                        <ul>
+                            <li>
+                            
+                                <a href="javascript:void(0);" class="more"><img src="images/chanpin01.jpg" alt=""></a>
+                                <p>Chanel香奈儿炫亮魅力</p><p>唇膏3.5g丝绒口红</p><p>市场价￥500.00</p><p>价格：￥358.50</p>
+                                <div class="shade">
+                                    <a href="javascript:void(0);" class="">
+                                        查看产品详情
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><img src="images/chanpin07.jpg" alt=""></a>
+                                <p>Chanel香奈儿炫亮魅力</p><p>唇膏3.5g丝绒口红</p><p>市场价￥500.00</p><p>价格：￥358.50</p>
+                                <div class="shade">
+                                    <a href="javascript:void(0);" class="">
+                                        查看产品详情
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><img src="images/chanpin02.jpg" alt=""></a>
+                                <p>Chanel香奈儿炫亮魅力</p><p>唇膏3.5g丝绒口红</p><p>市场价￥500.00</p><p>价格：￥358.50</p>
+                                <div class="shade">
+                                    <a href="javascript:void(0);" class="">
+                                        查看产品详情
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><img src="images/chanpin.png" alt=""></a>
+                                <p>Chanel香奈儿炫亮魅力</p><p>唇膏3.5g丝绒口红</p><p>市场价￥500.00</p><p>价格：￥358.50</p>
+                                <div class="shade">
+                                    <a href="javascript:void(0);" class="">
+                                        查看产品详情
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><img src="images/chanpin05.jpg" alt=""></a>
+                                <p>Chanel香奈儿炫亮魅力</p><p>唇膏3.5g丝绒口红</p><p>市场价￥500.00</p><p>价格：￥358.50</p>
+                                <div class="shade">
+                                    <a href="javascript:void(0);" class="">
+                                        查看产品详情
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><img src="images/chanpin08.jpg" alt=""></a>
+                                <p>Chanel香奈儿炫亮魅力</p><p>唇膏3.5g丝绒口红</p><p>市场价￥500.00</p><p>价格：￥358.50</p>
+                                <div class="shade">
+                                    <a href="javascript:void(0);" class="">
+                                        查看产品详情
+                                    </a>
+                                </div>
+                            </li>      
+                        </ul>
+                    </div>
+                    </div>    
+        	    </div>
+        	    <div class="c3">
+                    <div class="content1">
+        	    	<span class="s1">About</span>
+        	    	<hr width="400px" class="h1">
+                    <hr width="400px" class="h2">
+                    <span class="s2">关于我们</span>
+                    <div class="c4">
+                        <img src="images/chanpin03.jpg"      alt="">
+                        <p>素有“互联网奥斯卡”之称的“威比奖”（Webby Awards）成立于 1996 年，历来是国际公认的代表数字行业最领先和权威的国际性大奖与年度盛事之一，集合了一年之中最具有代表性的国际优秀网站、数字以及社交类优秀作品。它由国际数字艺术和科学协会主办，用以表彰在互联网领域作出突出贡献的人或组织，Tumblr、Medium、Vine、Airbnb 等优秀网站及应用都曾榜上有名。素有“互联网奥斯卡”之称的“威比奖”（Webby Awards）成立于 1996 年，历来是国际公认的代表数字行业最领先和权威的国际性大奖与年度盛事之一，集合了一年之中最具有代表性的国际优秀网站、数字以及社交类优秀作品。它由国际数字艺术和科学协会主办，用以表彰在互联网领域作出突出贡献的人或组织，Tumblr、Medium、Vine、Airbnb 等优秀网站及应用都曾榜上有名。互联网瞬息万变，威比奖的公布可以说是过去一年互联网动态的报告书，一年的期待，终于在4月25日，官方发布了2017年度的“威比奖”获奖名单，奖项涵盖30个类别，覆盖文化、政治、科学、体育和商业等多个领域。
+                        其中，专门保存网站网页数据，被称为“互联网档案馆”的网站时光机Internet Archive获终身成就奖特殊成就奖；全球首屈一指的创意的广告公司BBDO获得威比年度机构奖；引起一时轰动，把特朗普比作《X战警》电影中的反派“黑王” 的CNN时事评论员范·琼斯荣获特别成就奖；2017年制造121妇女大游行的women's march被评为年度社会运动等等。另外，《国家地理杂志》共斩获11个奖项，谷歌（8项）、BBC（7项）、Vice（7项）、洋葱新闻（the Onion，6项）及《纽约时报》（5项）紧随其后。</p>
+        	        </div>
+                    </div>
+                    <a href="html/pro-product.html" target="_blank">更多>></a>
+        	</div>
+        	<div class="bottom">
+            <div class="bottom1">
+        	    <img src="images/wei.jpg" alt="">
+        	    <ul>
+        			<li><a href="html/index.html" target="_blank">首页</a></li>
+        			<li>|</li>
+        			<li><a href="html/about us.html" target="_blank">公司介绍</a></li>
+        			<li>|</li>
+        			<li><a href="html/product center.html" target="_blank">产品中心</a></li>
+        			<li>|</li>
+        			<li><a href="html/news.html" target="_blank">新闻中心</a></li>
+        			<li>|</li>
+        			<li><a href="html/contact us.html" target="_blank">联系我们</a></li>
+        		</ul>
+        		<p>Copyright &copy; 2015 Nipic.com All Rights Reserved 版权所有.妆点尚品</p>
+        		<p>增值电信业务经营许可证：浙B2-20140130 本站法律顾问：程明律师</p>
+        		<p>妆点尚品诗网络服务平台方，若您发现您的权利被侵害，请发起消费者写会投诉</p>
+        	</div>
+        </div>
+    </div>    
+    </body>
+</html>

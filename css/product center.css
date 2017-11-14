@@ -1,0 +1,126 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-29 21:08:50
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-15 16:59:04
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.top ul li:nth-of-type(3) a{
+    color:red;
+}
+.content{
+    width:1200px;
+    margin:0 auto;
+	overflow: hidden;
+	height:1000px;
+}
+.s1{
+	margin-left: 100px;
+    display: block;
+    margin-top: 40px;
+}
+.s1 a{
+    color:red;
+}
+
+.div{
+    width: 236px;
+    margin-top: 40px;
+    padding: 19px;
+    float: left; 
+    font-size:20px;
+    line-height:40px;
+    cursor: pointer;
+ 
+}
+.div div{
+    margin-bottom: 10px;
+} 
+.div p{
+    font-size:22px;
+    width:100%;
+    text-align:center;
+    height:40px;
+    line-height:40px;
+    background:#aa2270;
+}
+.div hr{
+    width:100%;
+    height:1px;
+    background:black; 
+    margin-top:4px;
+    margin-bottom:4px;
+}
+.div h5{
+    width:100%;
+    border-bottom:1px dashed black; 
+}
+.div h5 a{
+    color:black;
+    display: inline-block;
+    width:186px; 
+    height: 30px;
+    line-height: 30px;
+    padding-left: 50px;  
+    font-size: 18px;
+    background:url('../images/sprites css.png') no-repeat -32px -22px #e5e5e5;
+}
+.div ul{
+    display:none;
+    margin-bottom:10px;
+}
+.div ul li{
+    width:100%;
+    padding-left:30px;
+}
+.s2{
+    padding-left: 324px;
+    margin-top: 60px;
+    font-size: 24px;
+    display: block;
+}
+.u2{
+    width: 900px;
+    margin-left: 270px;
+    margin-top: 16px;
+    overflow: hidden;
+    color: #605e5e;
+}
+.u2 li{
+	width:233px;
+	float:left;
+	margin-left:54px;
+	margin-bottom:30px;
+	border: 2px solid #cbcbcb;
+}
+.u2 li img{
+	width:220px;
+	margin:0 auto;
+	margin-left: 7px;
+    margin-top: 5px;
+}
+.u2 li p{
+	width:220px;
+	margin:0 auto;
+}
+.u2 li span{
+	float:right;
+}
+.u3{
+    overflow:hidden;
+    margin-left:416px;
+    margin-top: 18px;
+}
+.u3 li{
+    width:70px;
+    margin-left:6px;
+	background:#eee;
+	float:left;
+	font-size:14px;
+    border:1px solid #eeeeee;
+    border-radius: 6px;
+    text-align:center;
+}

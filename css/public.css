@@ -1,0 +1,141 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-29 13:36:01
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-15 16:37:52
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration:none;
+	list-style: none;
+	font-family: '微软雅黑';
+}
+
+.big{
+	width: 100%;
+}
+.top p{
+	width: 376px;
+    float: right;
+    font-size: 17px;
+  
+    margin-top: 33px;
+}
+.top1{
+	width:1100px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.top img{
+	width: 232px;
+   float:left;
+}
+.form{
+	height: 51px;
+    float: right;
+
+    margin-right: -192px;
+}
+.a1{
+	border-radius: 30px;
+    height: 29px;
+	font-size: 13px;
+    float: right;
+    margin-top: 94px;
+    margin-right: -40px;
+    background:url('../images/search_03.jpg') -46px -4px;
+}
+ .top ul{
+	float:left;
+	margin-top: 50px;
+} 
+.top ul li{
+	margin-right: 42px;
+    float: left;
+    margin-bottom: 22px;
+    font-size: 20px;
+    
+}
+a{
+	color:black;
+}
+.top ul li a:hover{
+	color:red;
+}
+.bottom{
+	background:#cccccc;
+	overflow: hidden;
+	color:white;
+	height:146px;
+}
+.bottom1{
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.bottom img{
+	width:125px;
+	float:left;
+	margin-top: 10px; 
+}
+.bottom ul{
+	float:left;
+	width: 600px;
+	margin-bottom: 10px;
+	margin-top:10px;
+}
+.bottom ul li{
+	float:left;
+	margin-left: 18px;
+	color:white;
+}
+.bottom p{
+	margin-left:14px;
+	margin-bottom:10px;
+	float:left;
+}
+.banner{
+	width:100%;
+	position: relative;
+	overflow:hidden;
+	height:354px;
+}
+.banner1{
+	left: 508px;
+    bottom: 23px;
+    z-index: 1;
+    position: absolute;
+}
+.banner1 li{
+	float:left;
+	margin-left: 9px;
+	cursor: pointer;
+}
+.banner1 li hr{
+	width:50px;
+	height:5px;
+} 
+.banner2{
+	float:left;
+	width:6745px; 
+	left:0px;
+	top:0px;
+	position:relative;
+}
+.banner2 li{
+ 	float:left;  
+}
+.banner2 li:nth-of-type(1){
+	display:block;
+} 
+.banner2 img{
+	width:1349px;
+} 
+.current{
+	background:red;
+} 
+a:hover{
+	color:red;
+	cursor:pointer;
+}

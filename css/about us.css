@@ -1,0 +1,105 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-05 17:54:47
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-15 16:27:57
+*/
+ 
+ *{
+   margin: 0;
+   padding: 0;
+} 
+.top ul li:nth-of-type(2) a{
+  color:red;
+}
+
+ .content{
+    width:1200px;
+    margin:0 auto;
+    overflow: hidden;
+    height:1022px;
+}
+.s1{
+    margin-left: 100px;
+    display: block;
+    margin-top: 30px;
+}
+
+.s1 a{
+    color:red;
+}
+
+ .div{
+    width: 236px;
+    margin-top: 40px;
+    padding: 19px;
+    float: left; 
+    font-size:20px;
+    line-height:40px;
+    cursor: pointer;
+ 
+}
+.div div{
+    margin-bottom: 10px;
+} 
+.div p{
+    font-size:22px;
+    width:100%;
+    text-align:center;
+    height:40px;
+    line-height:40px;
+    background:#aa2270;
+}
+.div hr{
+    width:100%;
+    height:1px;
+    background:black; 
+    margin-top:4px;
+    margin-bottom:4px;
+}
+.div h5{
+    width:100%;
+    border-bottom:1px dashed black;
+
+ 
+}
+.div h5 a{
+     color:black;
+    display: inline-block;
+     width:186px; 
+    height: 30px;
+    line-height: 30px;
+    padding-left: 50px;  
+    font-size: 18px;
+    background:url('../images/sprites css.png') no-repeat -32px -22px #e5e5e5;
+}
+.div ul{
+    display:none;
+    margin-bottom:10px;
+}
+.div ul li{
+    width:100%;
+    padding-left:30px;
+}
+.s2{
+    padding-left: 326px;
+    margin-top: 60px;
+    font-size: 24px;
+    display: block;
+}
+.s3{
+    width:926px;
+    height: 600px;
+    float:right;
+    margin-top: 26px;
+}
+.s3 img{
+    width: 322px;
+    float: left;
+    margin-left: 6px;
+}
+.s3 p{
+    font-size:16px;
+    text-indent: 2em;
+    line-height: 30px;
+}  

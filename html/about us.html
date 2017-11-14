@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+       <link rel="stylesheet" href="../css/public.css">
+        <link rel="stylesheet" href="../css/about us.css">
+        <script src='../js/jquery-1.11.1.js'></script>
+        <script src='../js/public.js'></script>
+        <script>
+            $(function(){
+                var num=0;
+                   $('.s3 img').hover(function() {
+                    $(this).stop().fadeTo(500,0.6);
+
+                }, function() {
+                    $(this).stop().fadeTo(500,1);
+                });
+                $('.div h5').click(function(event) {
+                   num=$(this).index('.div h5');  
+                   if($('.div ul').eq(num).css('display')=='block'){
+                        $('h5').eq(num).children('a').css('background-position', '-32px -24px');
+                   }
+                   else{
+                        $('h5').eq(num).children('a').css('background-position', '-14px -46px');
+                   }
+                   $('.div ul').eq(num).stop().slideToggle(500).siblings('.div ul').slideUp(500);
+                });
+                
+            })
+        </script>
+    </head>
+    <body>
+        <div class="big">
+
+            <div class="top">
+                <div class="top1">
+                <p> <span>2015年11月13日</span>
+                    <span>星期五</span>
+                    <a href="javascript:void(0);">设为主页</a>
+                    <a href="javascript:void(0);">收藏本站</a>
+                </p>
+                <img src="../images/logo.jpg" alt="">
+                <form action="" class="form">
+                  <input type="text" placeholder="搜索" class="a1">
+                </form>
+                <ul>
+                  <li><a href="../index.html" target="_blank">首页</a></li>
+                        <li><a href="../html/about us.html" target="_blank">公司介绍</a></li>
+                        <li><a href="../html/product center.html" target="_blank">产品中心</a></li>
+                        <li><a href="../html/news.html" target="_blank">新闻中心</a></li>
+                        <li><a href="../html/contact us.html" target="_blank">联系我们</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="banner">
+                <ul class="banner1">
+                    <li class="current"><hr></li>
+                    <li><hr></li>
+                    <li><hr></li>
+                    <li><hr></li>
+                    <li><hr></li>
+                </ul>
+                <ul class="banner2">
+                    <li><img src="../images/banner01.jpg" alt=""></li>
+                    <li><img src="../images/banner02.jpg" alt=""></li>
+                    <li><img src="../images/banner03.jpg" alt=""></li>
+                    <li><img src="../images/banner04.jpg" alt=""></li>
+                    <li><img src="../images/banner05.jpg" alt=""></li>
+                </ul>
+            </div>
+            <div class="content">
+               <span class="s1">您所在的位置：首页>><a href="">公司介绍</a></span>            
+               <div class="div">
+                   <div>
+                       <p>公司介绍</p>
+                       <hr>
+                       <h5><a href="javascript:void(0);">公司理念</a></h5>
+                           <ul>
+                               <li>公司理念1</li>
+                               <li>公司理念2</li>
+                           </ul>
+                       <h5><a href="javascript:void(0);">企业文化</a></h5>
+                            <ul>
+                               <li>企业文化1</li>
+                               <li>企业文化2</li>
+                            </ul>
+                   </div>
+                    <div>
+                       <p>服务热线</p>
+                       <hr>
+                       <h5><a href="javascript:void(0);">销售咨询</a></h5>
+                           <ul>
+                               <li>028-4764178</li>
+                               <li>028-4764178</li>
+                           </ul>
+                       <h5><a href="javascript:void(0);">售后服务热线</a></h5>
+                            <ul>
+                               <li>028-4764178</li>
+                               <li>028-4764178</li>
+                            </ul>
+                   </div>   
+                </div>              
+               <span class="s2">公司理念</span>
+               <div class="s3">
+                   <img src="../images/gongsi.jpg" alt="">
+                   <p>七年的产品线几乎囊括了所有护肤品种类，主要有以下几大系列：莹润系列、彩妆系列、后续保养系列，芍药系列、赤芍紫草系列、瘦身系列及Q弹气垫霜等。2014年广州林厦化妆品有限公司全面负责大陆市场的开发与运营，公司在行业激烈的竞争环境中，凭着鉴定的信念和不懈的努力，从无到有实现了年销售额突破3亿的骄人业绩。七年的产品线几乎囊括了所有护肤品种类，主要有以下几大系列：莹润系列、彩妆系列、后续保养系列，芍药系列、赤芍紫草系列、瘦身系列及Q弹气垫霜等。2014年广州林厦化妆品有限公司全面负责大陆市场的开发与运营，公司在行业激烈的竞争环境中，凭着鉴定的信念和不懈的努力，从无到有实现了年销售额突破3亿的骄人业绩。七年的产品线几乎囊括了所有护肤品种类，主要有以下几大系列：莹润系列、彩妆系列、后续保养系列，芍药系列、赤芍紫草系列、瘦身系列及Q弹气垫霜等。2014年广州林厦化妆品有限公司全面负责大陆市场的开发与运营，公司在行业激烈的竞争环境中，凭着鉴定的信念和不懈的努力，从无到有实现了年销售额突破3亿的骄人业绩。七年的产品线几乎囊括了所有护肤品种类，主要有以下几大系列：莹润系列、彩妆系列、后续保养系列，芍药系列、赤芍紫草系列、瘦身系列及Q弹气垫霜等。2014年广州林厦化妆品有限公司全面负责大陆市场的开发与运营，公司在行业激烈的竞争环境中，凭着鉴定的信念和不懈的努力，从无到有实现了年销售额突破3亿的骄人业绩。
+                   七年的产品线几乎囊括了所有护肤品种类，主要有以下几大系列：莹润系列、彩妆系列、后续保养系列，芍药系列、赤芍紫草系列、瘦身系列及Q弹气垫霜等。2014年广州林厦化妆品有限公司全面负责大陆市场的开发与运营，公司在行业激烈的竞争环境中，凭着鉴定的信念和不懈的努力，从无到有实现了年销售额突破3亿的骄人业绩。
+                   七年的产品线几乎囊括了所有护肤品种类，主要有以下几大系列：莹润系列、彩妆系列、后续保养系列，芍药系列、赤芍紫草系列、瘦身系列及Q弹气垫霜等。2014年广州林厦化妆品有限公司全面负责大陆市场的开发与运营，公司在行业激烈的竞争环境中，凭着鉴定的信念和不懈的努力，从无到有实现了年销售额突破3亿的骄人业绩。七年的产品线几乎囊括了所有护肤品种类，主要有以下几大系列：莹润系列、彩妆系列、后续保养系列，芍药系列、赤芍紫草系列、瘦身系列及Q弹气垫霜等。2014年广州林厦化妆品有限公司全面负责大陆市场的开发与运营，公司在行业激烈的竞争环境中，凭着鉴定的信念和不懈的努力，从无到有实现了年销售额突破3亿的骄人业绩。
+                   七年的产品线几乎囊括了所有护肤品种类，主要有以下几大系列：莹润系列、彩妆系列、后续保养系列，芍药系列、赤芍紫草系列、瘦身系列及Q弹气垫霜等。2014年广州林厦化妆品有限公司全面负责大陆市场的开发与运营，公司在行业激烈的竞争环境中，凭着鉴定的信念和不懈的努力，从无到有实现了年销售额突破3亿的骄人业绩。</p>
+                  
+               </div>
+           </div> 
+            <div class="bottom">
+            <div class="bottom1">
+              <img src="../images/wei.jpg" alt="">
+              <ul>
+              <li><a href="../html/index.html" target="_blank">首页</a></li>
+              <li>|</li>
+              <li><a href="../html/about us.html" target="_blank">公司介绍</a></li>
+              <li>|</li>
+              <li><a href="../html/product center.html" target="_blank">产品中心</a></li>
+              <li>|</li>
+              <li><a href="../html/news.html" target="_blank">新闻中心</a></li>
+              <li>|</li>
+              <li><a href="../html/contact us.html" target="_blank">联系我们</a></li>
+            </ul>
+            <p>Copyright &copy; 2015 Nipic.com All Rights Reserved 版权所有.妆点尚品</p>
+            <p>增值电信业务经营许可证：浙B2-20140130 本站法律顾问：程明律师</p>
+            <p>妆点尚品诗网络服务平台方，若您发现您的权利被侵害，请发起消费者写会投诉</p>
+          </div>
+          </div>
+        </div>
+    </body>
+</html>
